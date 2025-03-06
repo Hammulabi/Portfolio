@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+    border: 3px #ae4a2c;
+    border-style: double;
+    margin: auto;
+    width: 100%;
+
+    }
+
+.stage-detail{
+    text-align: center;
+    border: 3px #ae4a2c;
+    border-style: double;
+    margin: auto;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    border: 3px #ae4a2c;
+    border-style: double;
+    margin: auto;
+    width: 100%;
+  }

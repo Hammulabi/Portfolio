@@ -1,0 +1,153 @@
+<!-- Page principale: index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="asset/favicon.png">
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Portfolio: Thomas Schaming</h1>
+        <section class="Presentation">
+          <img class="img" src= "asset/Chateaux dans le ciel.jpg" alt= " Laputa, le château dans le ciel" style="width:100%;max-width:200px" height="110" data-modal="modal1">
+              <!-- The Modal -->
+          <div id="modal1" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content">
+            <div class="modal-caption"></div>
+          </div>
+        </section>
+    </header>
+    
+    <section class="biographie">
+      <article>
+        <img class="img" src= "asset/PhotoME_4.jpg" alt= "Thomas Schaming" style="width:100%;max-width:200px" height="120" data-modal="modal2">
+        <!-- The Modal -->
+        <div id="modal2" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content">
+          <div class="modal-caption"></div>
+        </div>
+      </article>
+      <div class="biographie-text">
+        <h3>Biographies :</h3>
+        <p>Passionné par l’informatique et la cybersécurité, Thomas Schaming poursuit un double cursus en développement web et cybersécurité. 
+          Grâce à ses expériences académiques et professionnelles, il a développé une expertise en programmation, 
+          sécurité des réseaux et protection des données. Curieux et rigoureux, il s’investit pleinement dans la recherche de solutions innovantes
+          pour répondre aux enjeux numériques actuels.</p>
+      </div>
+    </section>
+    
+    <section class="skill">
+      <div class="skill-avatar">
+        <img src="asset/Avatar_1.png" alt="HTML/CSS">
+        <img src="asset/Avatar_2.png" alt="JavaScript">
+        <img src="asset/Avatar_3.png" alt="Python">
+        <img src="asset/Avatar_4.png" alt="SQL">
+      </div>
+      <div class="skill-text">
+        <h3>Mes skills & mon CV</h3>
+        <ol>
+          <li>💻 <strong>Programmation :</strong> JavaScript, HTML, CSS, Python, C, C++, MySQL, Linux</li>
+          <li>🔐 <strong>Cybersécurité :</strong> Pentesting, gestion des vulnérabilités, sécurité des réseaux, OSINT</li>
+          <li>📡 <strong>Administration Réseaux :</strong> Installation, maintenance et gestion des logs</li>
+          <li>🌍 <strong>Expérience Internationale :</strong> Stage aux États-Unis, anglais (C1)</li>
+          <li>🎯 <strong>Projets :</strong> Développement d’un jeu, création d’une API, gestion de bases de données</li>
+          <li>🏆 <strong>Certifications :</strong> Cisco Cybersecurity, MOOC ANSSI, MOOC HTML/CSS/SQL</li>
+      </ol>
+        <a href="asset/CV ECE Cybersécurité Final.pdf" download="CV Thomas Schaming">
+          <button class="button33">Mon CV</button>
+        </a>
+      </div>
+  </section>
+
+
+    <section class="Project">
+      <h2>Projets Réalisés</h2>
+      <div class="container">
+        <button class="prev" onclick="moveSlides(-1)">❮</button>
+        <div class="slider" id="slider">
+          <div class="mySlides">
+            <div class="name_project">Page Web Pro</div>
+            <a href="grand_projet.html">
+            <img src="asset/P1.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides">
+            <div class="name_project">Memory Card</div>
+            <a href="grand_projet.html">
+            <img src="asset/P2.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides">
+            <div class="name_project">Todo List</div>
+            <a href="grand_projet.html">
+            <img src="asset/P3.png" style="width:100%"></a>
+          </div>
+              
+          <div class="mySlides">
+            <div class="name_project">Formulaire & Webserver </div>
+            <a href="grand_projet.html">
+            <img src="asset/P5.png" style="width:100%"></a>
+          </div>
+          
+          <div class="mySlides">
+            <div class="name_project">Portfolio</div>
+            <a href="grand_projet.html">
+            <img src="asset/P4.png" style="width:100%"></a>
+          </div>
+        </div>
+        <button class="next" onclick="moveSlides(1)">❯</button> 
+      </div>
+    </section>
+        
+    <section class="stages">
+      <h2>Stages & Experiences Pro.</h2>
+      <div class="flex">
+        <div class="case">
+          <a href="stage.html">
+            <img src="asset/S_1.png" alt="stage" class="image">
+            <div class="overlay">Mollat</div>
+          </a>
+        </div>
+    
+        <div class="case">
+          <a href="stage.html">
+            <img src="asset/S_2.png" alt="stage" class="image">
+            <div class="overlay">Entretient de Golf à Shanty Creek</div>
+          </a>
+        </div>
+    
+        <div class="case">
+          <a href="stage.html">
+            <img src="asset/S_3.png" alt="stage" class="image">
+            <div class="overlay">Coach Débutant Danse sur Glace Bordeaux</div>
+          </a>
+        </div>
+    </div>
+    </section>
+    <footer>
+      <h3>INFO & RESEAUX</h3>
+      <div class="footer-content">
+          <div class="social-links">
+              <a href="https://www.youtube.com/watch?v=OkVyDGTpklY">Email</a>
+              <a href="https://www.instagram.com/darkfantasyquest/">Instagram</a>
+              <a href="https://www.facebook.com/zuck/?locale=fr_FR">Facebook</a>
+              <a href="https://www.tiktok.com/@lc_signfactory_/video/7457387994639584555">TikTok</a>
+              <a href=" https://github.com/Hammulabi">Github</a>
+              <a href="www.linkedin.com/in/thomas-schaming">Linkedin</a>
+          </div>
+          <button class="fun-button" role="button"><a href="https://www.youtube.com/watch?v=ugC9Yzd5E74">FUN</a></button>
+      </div>
+  </footer>
+  <script src="script_index.js"></script>
+</body>
+</html>
+
+<!--Ajouté un Mobile Navigation Menu sur les pages pour pouvoir revenir au début-->
+<!--Porter le portfolio sur Github-->
